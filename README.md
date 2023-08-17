@@ -53,4 +53,9 @@ transport.sendMail({
 
 ## License
 
-**MIT**
+This project is licensed under the [Apache license](LICENSE)
+
+## Conduct
+
+We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md).
+
