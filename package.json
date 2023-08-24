@@ -1,7 +1,7 @@
 {
     "name": "@newesis/nodemailer-sendgrid",
     "version": "1.0.0",
-    "description": "",
+    "description": "SendGrid transport for Nodemailer",
     "main": "index.js",
     "scripts": {
         "clean": "npx yarn-deduplicate yarn.lock",
@@ -12,7 +12,7 @@
         "sendgrid"
     ],
     "author": "Newesis Srl",
-    "license": "MIT",
+    "license": "Apache License 2.0",
     "dependencies": {
         "@sendgrid/mail": "^7.0.0"
     },
