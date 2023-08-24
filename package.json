@@ -1,8 +1,18 @@
 {
-    "name": "@newesis/nodemailer-sendgrid",
+    "name": "@newesissrl/nodemailer-sendgrid",
     "version": "1.0.0",
     "description": "SendGrid transport for Nodemailer",
     "main": "index.js",
+    "files": [
+        "index.js",
+        "package.json",
+        "examples/mail.js",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "MAINTAINERS.md",
+        "README.md"
+    ],
     "scripts": {
         "clean": "npx yarn-deduplicate yarn.lock",
         "test": "grunt"
