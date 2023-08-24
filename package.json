@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "SendGrid transport for Nodemailer",
     "main": "index.js",
+    "private": false,
     "files": [
         "index.js",
         "package.json",
