@@ -14,13 +14,18 @@
         "MAINTAINERS.md",
         "README.md"
     ],
+    "repository": {
+        "url": "https://github.com/Newesissrl/nodemailer-sendgrid",
+        "type": "git"
+    },
     "scripts": {
         "clean": "npx yarn-deduplicate yarn.lock",
         "test": "grunt"
     },
     "keywords": [
         "nodemailer",
-        "sendgrid"
+        "sendgrid",
+        "newesissrl"
     ],
     "author": "Newesis Srl",
     "license": "Apache-2.0",
