@@ -30,7 +30,7 @@
     "author": "Newesis Srl",
     "license": "Apache-2.0",
     "dependencies": {
-        "@sendgrid/mail": "^7.0.0"
+        "@sendgrid/mail": "^8.1.0"
     },
     "devDependencies": {
         "eslint-config-nodemailer": "^1.2.0",
