@@ -1,6 +1,6 @@
 {
     "name": "@newesissrl/nodemailer-sendgrid",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "SendGrid transport for Nodemailer",
     "main": "index.js",
     "private": false,
