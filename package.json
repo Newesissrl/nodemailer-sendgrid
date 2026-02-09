@@ -36,7 +36,7 @@
         "eslint-config-nodemailer": "^1.2.0",
         "grunt": "^1.0.2",
         "grunt-eslint": "^26.0.0",
-        "nodemailer": "^7.0.6"
+        "nodemailer": "^8.0.1"
     },
     "publishConfig": {
         "access": "public"
