@@ -1,6 +1,6 @@
 {
     "name": "@newesissrl/nodemailer-sendgrid",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "SendGrid transport for Nodemailer",
     "main": "index.js",
     "private": false,
@@ -20,7 +20,8 @@
     },
     "scripts": {
         "clean": "npx yarn-deduplicate yarn.lock",
-        "test": "grunt"
+        "lint": "grunt",
+        "test": "grunt && node --test \"test/*.test.js\""
     },
     "keywords": [
         "nodemailer",
@@ -30,13 +31,18 @@
     "author": "Newesis Srl",
     "license": "Apache-2.0",
     "dependencies": {
-        "@sendgrid/mail": "^8.1.0"
+        "@sendgrid/mail": "^8.1.6"
     },
     "devDependencies": {
+        "@eslint/js": "^10.0.1",
         "eslint-config-nodemailer": "^1.2.0",
-        "grunt": "^1.0.2",
-        "grunt-eslint": "^26.0.0",
-        "nodemailer": "^7.0.6"
+        "globals": "^17.14.0",
+        "grunt": "^1.6.3",
+        "grunt-eslint": "^27.0.0",
+        "nodemailer": "^10.6.1",
+        "nodemailer-v7": "npm:nodemailer@^7.0.13",
+        "nodemailer-v8": "npm:nodemailer@^8.0.11",
+        "nodemailer-v9": "npm:nodemailer@^9.1.1"
     },
     "publishConfig": {
         "access": "public"

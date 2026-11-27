@@ -15,7 +15,7 @@ switching from SendGrid API to any other provider should be just as easy as swit
 
 ## Usage
 
-> Requires Nodemailer v6.0.0+
+> Requires Nodemailer v6.0.0+. The test suite covers Nodemailer 7, 8, 9 and 10.
 
 This module is mostly meant to demonstrate the usage of `mail.normalize(cb)` method in Nodemailer v4.3. This allows creating HTTP API based transports for
 Nodemailer much easier.
