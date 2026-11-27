@@ -5,8 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "github-actions"
+    directory: "/" # Workflows are read from /.github/workflows
     schedule:
       interval: "daily"
     groups:
@@ -17,4 +17,19 @@ updates:
       major:
         update-types:
           - "major"
-
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    ignore:
+      # Test-only aliases pinned to one nodemailer major each (compatibility matrix).
+      - dependency-name: "nodemailer-v*"
+        update-types: ["version-update:semver-major"]
+    groups:
+      minors:
+        update-types:
+          - "minor"
+          - "patch"
+      major:
+        update-types:
+          - "major"
